@@ -1,0 +1,49 @@
+dict_nomes = {}
+dict_nomes = {'nome1': 'Brasil: Frutos da miscigenação', 'nome2': 'Brasil: Diversidade e exclusão', 'nome3': 'Lei 11.645 todo dia', 'nome4': 'Diversidade das raízes brasileiras', 'nome5': 'A cor do Brasil: Amores e dores', 'nome6': 'Brasil das cores e contrastes', 'nome7': 'Raízes e resgates', 'nome8': 'Valorização e amor às misturas', 'nome9': 'Extremófilos'}
+
+
+
+def bt1_click():
+    arquivo.write(dict_nomes['nome2'] + '\n')
+bt1 = Button(janela2, width=30, text="Brasil: Frutos da miscigenação", command = bt1_click)
+bt1.place(x=50, y=200)
+
+def bt2_click():
+    arquivo.write(dict_nomes['nome2']+'\n')
+bt2 = Button(janela2, width=30, text="Brasil: Diversidade e exclusão", command = bt2_click)
+bt2.place(x=300, y=200)
+
+def bt3_click():
+    arquivo.write(dict_nomes['nome3']+'\n')
+bt3 = Button(janela2, width=30, text="Lei 11.645 todo dia", command = bt3_click)
+bt3.place(x=550, y=200)
+
+def bt4_click():
+    arquivo.write(dict_nomes['nome4']+'\n')
+bt4 = Button(janela2, width=30, text="Diversidade das raízes brasileiras", command = bt4_click)
+bt4.place(x=50, y=250)
+
+def bt5_click():
+    arquivo.write(dict_nomes['nome5']+'\n')
+bt5 = Button(janela2, width=30, text="A cor do Brasil: Amores e dores", command = bt5_click)
+bt5.place(x=300, y=250)
+
+def bt6_click():
+    arquivo.write(dict_nomes['nome6']+'\n')
+bt6 = Button(janela2, width=30, text="Brasil das cores e contrastes", command = bt6_click)
+bt6.place(x=550, y=250)
+
+def bt7_click():
+    arquivo.write(dict_nomes['nome7']+'\n')
+bt7 = Button(janela2, width=30, text="Raízes e resgates", command = bt7_click)
+bt7.place(x=50, y=300)
+
+def bt8_click():
+    arquivo.write(dict_nomes['nome8']+'\n')
+bt8 = Button(janela2, width=30, text="Valorização e amor às misturas", command = bt8_click)
+bt8.place(x=300, y=300)
+
+def bt9_click():
+    arquivo.write(dict_nomes['nome9']+'\n')
+bt9 = Button(janela2, width=30, text="Extremófilos", command = bt9_click)
+bt9.place(x=550, y=300)
